@@ -8,6 +8,7 @@ function EffectTwo(){
   let circleRed = useRef(null)
   let circleBlue = useRef(null)
   let app = useRef(null)
+  let dot = useRef(null)
 
   const [state, setState] = useState(false);
 
